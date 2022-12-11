@@ -70,9 +70,6 @@ input {
   margin-right: 12px;
 }
 
-/* .line-2 {
-} */
-
 .line-1 {
   position: absolute;
   width: 492px;
@@ -118,17 +115,12 @@ input {
   margin-top: -475px;
   margin-left: 646px;
 }
-.img-2 {
-  width: 80px;
-  margin-top: 10px;
-  margin-left: 680px;
-}
 
 footer {
   text-transform: uppercase;
   color: #000000;
   margin-left: 25px;
-  padding-top: 4px;
+  padding-top: 203px;
 }
 
 .svg-2 {
@@ -137,14 +129,79 @@ footer {
   width: 20px;
   height: 20px;
   padding: 0px;
+  padding-top: 200px;
 }
 
-.box {
-  width: 378px;
+.steak-with-tomato {
+  position: absolute;
+  width: 621px;
+  height: 621px;
+  left: 680px;
+  top: 50px;
+}
+
+.coupen-box {
+  width: 410px;
   height: 110px;
-  border: 1px solid green;
   padding: 25px;
   margin-left: 663px;
   margin-top: -121px;
   border-radius: 10px;
+
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.box-text-1 {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  border-bottom: 1px solid grey;
+}
+.box-text-2 {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.prev-next-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-get-coupen {
+  background-color: yellow;
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.text-info {
+  position: absolute;
+  right: 510px;
+  top: 720px;
+}
+.text-info-2 {
+  position: absolute;
+  right: 530px;
+  top: 777px;
+  font-size: 15px;
+}
+
+.price-info {
+  position: absolute;
+  right: 420px;
+  top: 720px;
+  text-decoration-line: line-through;
+}
+
+.price-info-2 {
+  position: absolute;
+  right: 420px;
+  top: 744px;
 }
